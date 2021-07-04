@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url(images/bg-image-16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 130px;
+}
+.header-element{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.header-element p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.link-button{
+    padding: 20px 60px;
+    text-decoration: none;
+    background-color: rgb(230, 74, 100);
+    color: white;
+    border-radius: 30px;
+    margin-top: 200px;
+    font-weight: 300;
+}
+.link-button:hover{
+    padding: 20px 60px;
+    text-decoration: none;
+    background-color: #E4E4E6;
+    color: black;
+    border: 2px solid rgb(230, 74, 100);
+    border-radius: 30px;
+    margin-top: 200px;
+}
+#freelancer-title{
+    margin-bottom: -40px;
+    background: -webkit-linear-gradient(rgb(230, 74, 100), salmon);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 200;
+}
+.salmon-color{
+    color: rgb(230, 74, 100);
+}
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+h2{
+    font-size: 16px;
+    color: liner-gradient(red, blue);
+}
+.about-img{
+    padding-left: 5%;
+}
+.about{
+    display: flex;
+}
+.about-elements{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+}
+.about-skills{
+    display: flex;
+}
+.about-skills h4{
+    color: rgb(230, 74, 100);
+}
+.about-skills-elemets{
+    margin-top: 50px;
+}
