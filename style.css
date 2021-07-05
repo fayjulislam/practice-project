@@ -51,7 +51,7 @@ body{
     color: rgb(230, 74, 100);
 }
 h1{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 900;
 }
 h2{
@@ -63,6 +63,7 @@ h2{
 }
 .about{
     display: flex;
+    margin-bottom: 130px;
 }
 .about-elements{
     padding-left: 5%;
@@ -77,4 +78,23 @@ h2{
 }
 .about-skills-elemets{
     margin-top: 50px;
+}
+.brand-images{
+    display: flex;
+}
+.brand-images img{
+    padding: 1%;
+}
+.brands{
+    margin-bottom: 130px;
+}
+.performance{
+    display: flex;
+}
+.performance-image{
+    padding-left: 5%;
+}
+.performance-content{
+    padding-left: 5%;
+    padding-right: 5%;
 }
