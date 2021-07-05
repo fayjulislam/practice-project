@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
     font-family: 'Poppins', sans-serif;
 }
 .header{
@@ -63,7 +64,7 @@ h2{
     color: liner-gradient(red, blue);
 }
 .about-img{
-    padding-left: 5%;
+    box-shadow: 10px 10px 40px gray;
 }
 .about{
     display: flex;
@@ -83,11 +84,9 @@ h2{
 .about-skills-elemets{
     margin-top: 50px;
 }
-.brand-images{
+.brand-images {
     display: flex;
-}
-.brand-images img{
-    padding: 1%;
+    justify-content: center;
 }
 .brands{
     margin-bottom: 130px;
