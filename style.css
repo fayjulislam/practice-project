@@ -88,6 +88,13 @@ h2{
     display: flex;
     justify-content: center;
 }
+.brand-images img{
+    height: 100px;
+    widht: 100px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
 .brands{
     margin-bottom: 130px;
 }
